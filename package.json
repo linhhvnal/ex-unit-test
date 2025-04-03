@@ -1,0 +1,17 @@
+{
+	"name": "nodejs-unit-test",
+	"version": "1.0.0",
+	"description": "TechTusers unit test",
+	"main": "index.ts",
+	"scripts": {
+		"test": "jest",
+		"test:cov": "jest --watchAll=false --detectOpenHandles --forceExit --coverage --coverageReporters=html"
+	},
+	"author": "linhhv",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.3.1"
+	}
+}
